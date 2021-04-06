@@ -17,7 +17,7 @@ export class PokemonService {
       })
   }
 
-  private url : string = "https://pokeapi.co/api/v2/pokemon";
+  private url: string = "https://pokeapi.co/api/v2/pokemon";
   private url2 : string = "https://pokeapi.co/api/v2/pokemon";
 
   getJson(value:number){
