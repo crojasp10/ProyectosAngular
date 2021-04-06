@@ -19,7 +19,7 @@ export class TareasComponent implements OnInit {
     this.form = new FormGroup({
       plazo:new FormControl('Corto plazo'),
       nota: new FormControl(''),
-      titulo: new FormControl(''),
+      titulo: new FormControl('Tarea'),
       date: new FormControl(''),
     });
   }
